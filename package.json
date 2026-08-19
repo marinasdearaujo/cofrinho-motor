@@ -1,7 +1,7 @@
 {
   "name": "cofrinho-motor",
   "version": "1.0.0",
-  "description": "Motor autônomo do Cofrinho: robô Organizze + alertas Telegram",
+  "description": "Motor autônomo do Cofrinho: robô de importação Organizze + alertas Telegram",
   "private": true,
   "scripts": {
     "importar": "node organizze-import-robot.js importar",
@@ -9,5 +9,7 @@
     "monthly": "node telegram-bot.js monthly",
     "ciclo": "bash rodar-cofrinho.sh"
   },
-  "dependencies": { "playwright": "^1.62.1" }
+  "dependencies": {
+    "playwright": "^1.62.1"
+  }
 }

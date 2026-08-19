@@ -2,7 +2,17 @@
 .env
 *.env
 .organizze-session.json
+
+# Dados brutos / pessoais pesados
+organizze-raw.json
+itau-data.json
+meus-dados.json
+
 # Logs e artefatos
 *.log
 conexoes-calibrar.png
 node_modules/
+
+# Extratos (dados bancários)
+Extratos/
+Financas/
