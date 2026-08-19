@@ -1,0 +1,8 @@
+# Credenciais e sessão — NUNCA versionar
+.env
+*.env
+.organizze-session.json
+# Logs e artefatos
+*.log
+conexoes-calibrar.png
+node_modules/
